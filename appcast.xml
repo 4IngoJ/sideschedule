@@ -6,6 +6,33 @@
     <description>Update feed for Sideschedule.</description>
     <language>en</language>
     <item>
+      <title>Version 0.15.0</title>
+      <pubDate>Mon, 28 Sep 2026 22:39:39 +0200</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+        <![CDATA[
+          <h3>0.15.0</h3>
+          <ul>
+            <li>Apple Reminders in the sidebar: tick them off, add, rename, reschedule and delete them there, and changes made in Reminders or on your iPhone show up on their own. Choose which lists appear under Preferences &rarr; Reminders.</li>
+            <li>Reminders with a time sit in the day's timeline next to your events; reminders for the day, overdue ones and all-day events share a new list above it</li>
+            <li>The all-day list opens with the arrow underneath it, or by pulling the timeline down past its top, and shows full titles when open</li>
+            <li>Click an empty spot in the timeline to add an event or reminder there, or drag to set its length</li>
+            <li>Dragging an event to a new time is smooth now instead of shaky</li>
+            <li>Events that are over before your day starts show as small dots under the all-day list instead of not at all</li>
+            <li>The date in the header shortens itself when the sidebar is narrow, instead of cutting off the year</li>
+            <li>The Sideschedule logo in the menu bar; today in the month calendar is bold, the selected day is outlined</li>
+          </ul>
+        ]]>
+      </description>
+      <enclosure
+        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.15.0/SideSchedule-0.15.0.zip"
+        sparkle:edSignature="WJes7LdI6Ad3pUSAFr0WqpX78PyM64Vm/NEijgNMhFYQAhCzyL8yUO72Xrc5/Iv1fJ5eb8FmarMq+0+JBa51DA=="
+        length="3208364"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 0.14.0</title>
       <pubDate>Mon, 07 Sep 2026 19:02:15 +0200</pubDate>
       <sparkle:version>24</sparkle:version>

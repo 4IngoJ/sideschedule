@@ -1,6 +1,6 @@
 cask "sideschedule" do
-  version "0.13.3"
-  sha256 "967be4d2c7956abb30750c5de72afedfe94acd8208f18831a8d7bf73dae88854"
+  version "0.15.0"
+  sha256 "8b213a5cf8a8bd20c2a1f52e45e6cd699916b264df0f9520d117405c5ace33af"
 
   url "https://github.com/4IngoJ/sideschedule-releases/releases/download/v#{version}/SideSchedule-#{version}.dmg"
   name "SideSchedule"
