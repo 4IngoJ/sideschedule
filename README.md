@@ -6,9 +6,9 @@
 
 <p align="center">
   A day-calendar sidebar for macOS that keeps its own strip of screen, the way the Dock does.<br>
-  <a href="https://4ingoj.github.io/sideschedule-releases/">Website</a> ·
-  <a href="https://github.com/4IngoJ/sideschedule-releases/releases/latest/download/SideSchedule.dmg">Download</a> ·
-  <a href="https://github.com/4IngoJ/sideschedule-releases/releases">Release notes</a>
+  <a href="https://didact.digital/sideschedule/">Website</a> ·
+  <a href="https://github.com/4IngoJ/sideschedule/releases/latest/download/SideSchedule.dmg">Download</a> ·
+  <a href="https://github.com/4IngoJ/sideschedule/releases">Release notes</a>
 </p>
 
 ![SideSchedule docked at the edge of a Mac desktop](docs/assets/og-image.png)
@@ -28,7 +28,7 @@ Works on macOS 13 Ventura or later, Apple silicon and Intel, in English, German,
 
 ## Install
 
-Download [SideSchedule.dmg](https://github.com/4IngoJ/sideschedule-releases/releases/latest/download/SideSchedule.dmg), drag the app to Applications, and allow Calendar and Accessibility access on first launch. It's signed with a Developer ID and notarized by Apple.
+Download [SideSchedule.dmg](https://github.com/4IngoJ/sideschedule/releases/latest/download/SideSchedule.dmg), drag the app to Applications, and allow Calendar and Accessibility access on first launch. It's signed with a Developer ID and notarized by Apple.
 
 Or with Homebrew:
 
@@ -49,7 +49,7 @@ Questions: 4ingoj.apps@gmail.com
 This repo holds the built app, the [Sparkle](https://sparkle-project.org) update feed and the website in `docs/`. The source code is private. `SUFeedURL` in the app points at:
 
 ```
-https://github.com/4IngoJ/sideschedule-releases/releases/latest/download/appcast.xml
+https://github.com/4IngoJ/sideschedule/releases/latest/download/appcast.xml
 ```
 
 which resolves to the `appcast.xml` asset on whichever release is tagged latest.

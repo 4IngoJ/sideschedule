@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Sideschedule</title>
-    <link>https://github.com/4IngoJ/sideschedule-releases/releases/latest/download/appcast.xml</link>
+    <link>https://github.com/4IngoJ/sideschedule/releases/latest/download/appcast.xml</link>
     <description>Update feed for Sideschedule.</description>
     <language>en</language>
     <item>
@@ -22,7 +22,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.15.1/SideSchedule-0.15.1.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.15.1/SideSchedule-0.15.1.zip"
         sparkle:edSignature="CQRT+vhKW/XUmveCGMtkwXOnTGOYYfLr9KXbOCJs4USPo/5LOb+yXgF82onCdR0QiQjYjt6NnKVgtMotxPI6BQ=="
         length="3331042"
         type="application/octet-stream" />
@@ -49,7 +49,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.15.0/SideSchedule-0.15.0.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.15.0/SideSchedule-0.15.0.zip"
         sparkle:edSignature="WJes7LdI6Ad3pUSAFr0WqpX78PyM64Vm/NEijgNMhFYQAhCzyL8yUO72Xrc5/Iv1fJ5eb8FmarMq+0+JBa51DA=="
         length="3208364"
         type="application/octet-stream" />
@@ -78,7 +78,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.14.0/SideSchedule-0.14.0.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.14.0/SideSchedule-0.14.0.zip"
         sparkle:edSignature="HFuU1kc9NoY4FWgyVq8Qbxpsn+OYsDoovV6hcaoIDB7YmK/f672IpPRePkkXOFRdlmNvrZqiBQjWzThqfD17Cw=="
         length="2799742"
         type="application/octet-stream" />
@@ -104,7 +104,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.13.5/SideSchedule-0.13.5.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.13.5/SideSchedule-0.13.5.zip"
         sparkle:edSignature="eiNn85rscu1Fax+qarY6SqR1z//ZMdOWMW0b/lN74/pMboklgjNIIogsqhVnUH1T7f+ebqQPgOiDgA512oWGDA=="
         length="2786886"
         type="application/octet-stream" />
@@ -129,7 +129,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.13.4/SideSchedule-0.13.4.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.13.4/SideSchedule-0.13.4.zip"
         sparkle:edSignature="6SiVGMYbM/k3IUlgxX4AjnTWJPabNL5j2NIlEMQ6G++DvaJvtw62hFhOpg7u4BOcJuZBp090iNyvx9/G+WTeBg=="
         length="2738778"
         type="application/octet-stream" />
@@ -151,7 +151,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.13.3/SideSchedule-0.13.3.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.13.3/SideSchedule-0.13.3.zip"
         sparkle:edSignature="1NKn/Yc7K8O/zYPtdfHI4BQeedqquJJQG8QtlZVca/I5QphLm2PR1oQqXPaaSpTqob4ZHeR5s2JniZEQBCxDAQ=="
         length="2715869"
         type="application/octet-stream" />
@@ -176,7 +176,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.13.2/SideSchedule-0.13.2.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.13.2/SideSchedule-0.13.2.zip"
         sparkle:edSignature="44qVgJY81PkPDc8d9o2ANeru82iVe2FZjaLdhUk7z8Vy7BfTVHW2kQbwk5K9v/r34yDPpvmOieYHOvZFsxkdDQ=="
         length="2687842"
         type="application/octet-stream" />
@@ -198,7 +198,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.13.1/SideSchedule-0.13.1.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.13.1/SideSchedule-0.13.1.zip"
         sparkle:edSignature="fCq+UW6NwzneubFy9CNUOfDSAe1fijjkhieDz3QpGWmAlcLl3qhk3DGa4ZUvzyTh/Ep8UDm0PK/NCojeApWmDQ=="
         length="2683400"
         type="application/octet-stream" />
@@ -224,7 +224,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.13.0/SideSchedule-0.13.0.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.13.0/SideSchedule-0.13.0.zip"
         sparkle:edSignature="ZIB1ADQcnb8XhpBdiFIqJRrwq5PIZfT7aobTLCDnCdCr3wlgghK8J8+JTgk6vDTpcBCzlxdJ4PWnN3y/gh1SAw=="
         length="2669541"
         type="application/octet-stream" />
@@ -252,7 +252,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.12.0/SideSchedule-0.12.0.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.12.0/SideSchedule-0.12.0.zip"
         sparkle:edSignature="rcn1ZPd+mtGHZbwGQFtAie+BKTnWFUEwdxrKaQwP2uBFcH9ux7GmQRf2O3Zztb11sFwOskk7hru53q5esJ+sDQ=="
         length="2644317"
         type="application/octet-stream" />
@@ -277,7 +277,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.11.0/SideSchedule-0.11.0.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.11.0/SideSchedule-0.11.0.zip"
         sparkle:edSignature="dw7n4uO9X3drym/b9/9Ogw1XtQJ9D+vmQV28/eFDz3Ic7cIV5eSAtzINJ2RS1rrOGPrfvWsDpstDvu68gyBvDg=="
         length="1667424"
         type="application/octet-stream" />
@@ -305,7 +305,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.10.0/SideSchedule-0.10.0.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.10.0/SideSchedule-0.10.0.zip"
         sparkle:edSignature="dXnpOe+VNek/bbkXRjfrt/aKqt4kla5cei//tkmVt6jlq+1XS6QPO+WXPi4EuK50y7eXpGy6MWXcmc09WiN1Aw=="
         length="1578886"
         type="application/octet-stream" />
@@ -327,7 +327,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.9.1/SideSchedule-0.9.1.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.9.1/SideSchedule-0.9.1.zip"
         sparkle:edSignature="mPvDobIl7pYbBgO3rObGIyVBWGkrm3+Lh3qjA3RjnOyP+vyPw2g+F+PTELff+YM4/W/rxjlAYyvhJa9Vvbj9Cg=="
         length="3527107"
         type="application/octet-stream" />
@@ -349,7 +349,7 @@
         ]]>
       </description>
       <enclosure
-        url="https://github.com/4IngoJ/sideschedule-releases/releases/download/v0.9.0/SideSchedule-0.9.0.zip"
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v0.9.0/SideSchedule-0.9.0.zip"
         sparkle:edSignature="9Cgy8goUh5AGzM06mk37sgocKdJV2xIStlNepSGcU6PFcWWAb+5JlPYBeWEU6jGFKxqm+eDR0/hBxMfK/KagAg=="
         length="1366585"
         type="application/octet-stream" />

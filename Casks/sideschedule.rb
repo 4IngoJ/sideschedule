@@ -2,13 +2,13 @@ cask "sideschedule" do
   version "0.15.1"
   sha256 "2d7aa60b3a0a158b09ecc23672b315ed4a1d27173afb4a2124ad3096a510088e"
 
-  url "https://github.com/4IngoJ/sideschedule-releases/releases/download/v#{version}/SideSchedule-#{version}.dmg"
+  url "https://github.com/4IngoJ/sideschedule/releases/download/v#{version}/SideSchedule-#{version}.dmg"
   name "SideSchedule"
   desc "Day-calendar sidebar that reserves screen space instead of overlaying it"
   # The sideschedule source repo is intentionally private (see its own
   # README) — pointing homepage there 404s for anyone Homebrew's audit
   # or a user's browser sends here. This is the actual public site.
-  homepage "https://4ingoj.github.io/sideschedule-releases/"
+  homepage "https://didact.digital/sideschedule/"
 
   livecheck do
     url :url

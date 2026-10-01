@@ -21,10 +21,10 @@
 
 ## Links
 
-- [Website](https://4ingoj.github.io/sideschedule-releases/): features, comparison with Itsycal, Dato, Fantastical, Notion Calendar and others, FAQ, roadmap
-- [Download the latest DMG](https://github.com/4IngoJ/sideschedule-releases/releases/latest/download/SideSchedule.dmg)
-- [Release notes](https://github.com/4IngoJ/sideschedule-releases/releases)
+- [Website](https://didact.digital/sideschedule/): features, comparison with Itsycal, Dato, Fantastical, Notion Calendar and others, FAQ, roadmap
+- [Download the latest DMG](https://github.com/4IngoJ/sideschedule/releases/latest/download/SideSchedule.dmg)
+- [Release notes](https://github.com/4IngoJ/sideschedule/releases)
 - [Buy a licence](https://4ingoj.lemonsqueezy.com/checkout/buy/e72e0987-c650-42d1-a936-908168e003f5)
 - Homebrew: `brew install --cask 4ingoj/tap/sideschedule`
-- [Privacy policy](https://4ingoj.github.io/sideschedule-releases/privacy.html)
+- [Privacy policy](https://didact.digital/sideschedule/privacy.html)
 - Contact: 4ingoj.apps@gmail.com
