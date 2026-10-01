@@ -27,4 +27,4 @@
 - [Buy a licence](https://4ingoj.lemonsqueezy.com/checkout/buy/e72e0987-c650-42d1-a936-908168e003f5)
 - Homebrew: `brew install --cask 4ingoj/tap/sideschedule`
 - [Privacy policy](https://didact.digital/sideschedule/privacy.html)
-- Contact: 4ingoj.apps@gmail.com
+- Contact: hello@didact.digital

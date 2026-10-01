@@ -40,7 +40,7 @@ brew install --cask 4ingoj/tap/sideschedule
 
 Free for 14 days with everything unlocked. After that, [€12.99 once](https://4ingoj.lemonsqueezy.com/checkout/buy/e72e0987-c650-42d1-a936-908168e003f5) for two Macs, with all future updates included. No subscription.
 
-Questions: 4ingoj.apps@gmail.com
+Questions: hello@didact.digital
 
 ---
 
