@@ -12,6 +12,10 @@
 - Auto-hide shrinks it to a thin strip that still shows the join button and a countdown.
 - Works on any display, left or right edge, and follows to another screen when a monitor is unplugged.
 - Interface in English, German, French, Spanish, Italian and Portuguese.
+- Quick Add: a global shortcut (default Ctrl+Option+N) opens a text field. Type or dictate a sentence such as "Call with Bob tomorrow at half past three pm", check the preview, press Return. Understands dates, times, durations, all-day events and spoken forms in all six app languages; dictation uses macOS dictation (microphone button).
+- Optional reminders before events (off by default): system notification, in-sidebar banner or both, several lead times, snooze, filters (only events with a meeting link, skip declined events, calendar selection).
+- Optional Focus around meetings (off by default): runs a shortcut from the Shortcuts app when a meeting starts and when it ends, for example one that switches a Focus on.
+- New onboarding that explains the permission prompts before macOS asks.
 - Local-first: no account, no analytics, no telemetry. Network calls are licence checks (Lemon Squeezy) and update checks (GitHub).
 
 ## Limits
@@ -21,7 +25,7 @@
 
 ## Links
 
-- [Website](https://didact.digital/sideschedule/): features, comparison with Itsycal, Dato, Fantastical, Notion Calendar and others, FAQ, roadmap
+- [Website](https://didact.digital/sideschedule/): features, comparison with Itsycal, Dato, Fantastical, Notion Calendar, Sidebar Calendar and others, FAQ, roadmap
 - [Download the latest DMG](https://github.com/4IngoJ/sideschedule/releases/latest/download/SideSchedule.dmg)
 - [Release notes](https://github.com/4IngoJ/sideschedule/releases)
 - [Buy a licence](https://4ingoj.lemonsqueezy.com/checkout/buy/e72e0987-c650-42d1-a936-908168e003f5)
