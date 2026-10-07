@@ -6,6 +6,39 @@
     <description>Update feed for Sideschedule.</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.0</title>
+      <pubDate>Wed, 07 Oct 2026 16:20:32 +0200</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description>
+        <![CDATA[
+          <h3>1.1.0</h3>
+          <ul>
+            <li>Hide single events from the collapsed strip: right-click a bar or use the eye button in its popover. A repeating event offers this occurrence or the whole series. The expanded timeline keeps showing it with an eye icon, and Preferences can draw hidden events as a dashed outline or bring them all back.</li>
+            <li>Choose how strongly past and upcoming events fade in the collapsed strip: Subtle, Standard, Strong or No fading, with an option to fade only past events.</li>
+            <li>Docked mode: when a window sits right against the collapsed strip, the strip can sit on a soft blur, the window's own color, or a light or dark fill, so files on the desktop no longer show through. It fades in and out with the window.</li>
+            <li>Meeting shortcuts treat back-to-back and overlapping meetings as one block, so Focus stays on until the last one ends. A gap of up to 30 minutes can still count as back-to-back, or switch this off to run the shortcuts for every meeting.</li>
+            <li>The header counts down to your next event ("Next: 25 min").</li>
+            <li>Preferences got a new layout with grouped sections and switches, time chips for the visible day, a color picker for the now indicator, and an overview of every permission with a button into System Settings.</li>
+            <li>Notes in the event popover are written straight onto the popover instead of into a box.</li>
+          </ul>
+          <h3>Fixes</h3>
+          <ul>
+            <li>Popovers close when you click anywhere else.</li>
+            <li>An event with a long participant list no longer pushes its popover off the screen; the list scrolls.</li>
+            <li>"No more events today" showed up while a long event was still running and others were still to come.</li>
+            <li>With overlapping meetings, the end shortcut ran while the second meeting was still going.</li>
+          </ul>
+        ]]>
+      </description>
+      <enclosure
+        url="https://github.com/4IngoJ/sideschedule/releases/download/v1.1.0/SideSchedule-1.1.0.zip"
+        sparkle:edSignature="E/XIzDGl0IM0PLeue8h4lUtDRnPTJWG/TGy3VfLRTV0i8jREYe7+h5ar3az32yNaQ2z9UrN2zIaWtqxg83gRAA=="
+        length="4593289"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>Version 1.0.0</title>
       <pubDate>Tue, 06 Oct 2026 20:39:43 +0200</pubDate>
       <sparkle:version>28</sparkle:version>
