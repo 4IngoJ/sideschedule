@@ -1,11 +1,27 @@
 {
   "root": "../docs",
   "site_url": "https://didact.digital/sideschedule/",
-  "local_pages": ["index.html", "privacy.html"],
-  "runtime_keys": ["brew.copiedStatus"],
+  "local_pages": [
+    "index.html",
+    "privacy.html"
+  ],
+  "runtime_keys": [
+    "brew.copiedStatus"
+  ],
   "runtime_var": "sidescheduleTranslations",
   "pages": [
-    {"src": "index.html", "dict": "i18n/index.json", "mode": "text"},
-    {"src": "privacy.html", "dict": "i18n/privacy.json", "mode": "text"}
-  ]
+    {
+      "src": "index.html",
+      "dict": "i18n/index.json",
+      "mode": "text"
+    },
+    {
+      "src": "privacy.html",
+      "dict": "i18n/privacy.json",
+      "mode": "text"
+    }
+  ],
+  "localize": {
+    "/": "/{lang}/"
+  }
 }
