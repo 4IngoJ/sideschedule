@@ -591,7 +591,7 @@
         {"@type": "Question", "name": "Does it work with my calendar?", "acceptedAnswer": {"@type": "Answer", "text": "SideSchedule reads from Apple Calendar (EventKit), so anything Apple Calendar can see — iCloud, Google, Exchange, CalDAV — shows up in the sidebar. No extra sync, no account."}},
         {"@type": "Question", "name": "Why does it need Accessibility access?", "acceptedAnswer": {"@type": "Answer", "text": "That's the only way macOS lets an app keep other windows from sliding under the sidebar. The Dock gets its reserved strip from the system itself; a regular app has no such API, so Accessibility is the only route left. SideSchedule never reads window content — it only repositions frames."}},
         {"@type": "Question", "name": "What happens after the 14-day trial?", "acceptedAnswer": {"@type": "Answer", "text": "The sidebar stops appearing and the app opens to the activation window instead. Nothing is deleted: your notes, settings and exported .md files all stay exactly where they are, and the sidebar returns the moment you enter a key. No reinstall needed."}},
-        {"@type": "Question", "name": "Is my data sent anywhere?", "acceptedAnswer": {"@type": "Answer", "text": "The app: no. Your calendar events and notes stay on your Mac. The only network calls are license validation (Lemon Squeezy) and update checks (GitHub). No analytics, no tracking, no telemetry. This website loads no third-party scripts; if you arrive through a partner’s link, the partner’s ID is added to the Buy links so they get credited — details in the privacy policy."}},
+        {"@type": "Question", "name": "Is my data sent anywhere?", "acceptedAnswer": {"@type": "Answer", "text": "The app: no. Your calendar events and notes stay on your Mac. The only network calls are license validation (Lemon Squeezy) and update checks (GitHub). No analytics, no tracking, no telemetry. This website counts visits with GoatCounter, without cookies, and loads no other third-party scripts; if you arrive through a partner’s link, the partner’s ID is added to the Buy links so they get credited — details in the privacy policy."}},
         {"@type": "Question", "name": "Can I get a refund?", "acceptedAnswer": {"@type": "Answer", "text": "Lemon Squeezy handles payments as merchant of record. If something's genuinely broken, reach out and we'll figure it out — but the 14-day trial exists so you can be sure before you pay."}},
         {"@type": "Question", "name": "Does it work on multiple monitors?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. You pick which display the sidebar lives on, and it follows that screen. If you unplug the monitor, it moves to the next one automatically."}},
         {"@type": "Question", "name": "How many Macs does one licence cover?", "acceptedAnswer": {"@type": "Answer", "text": "Two. Activate on both, a desktop and a laptop, say. \"Deactivate this Mac\" in Preferences frees the slot again, so replacing a machine doesn't cost you an activation."}},
@@ -670,16 +670,16 @@
     </h1>
     <p class="sub" data-i18n="hero.sub">SideSchedule reserves a strip of screen the way the Dock does, so nothing else is allowed to sit on top of it. Built for the fifteen times a day I need to know what’s next without hunting for it.</p>
     <div class="cta-row">
-      <a class="btn btn-primary" href="https://github.com/4IngoJ/sideschedule/releases/latest/download/SideSchedule.dmg" data-i18n="cta.download">Download for macOS</a>
+      <a data-goatcounter-click="dl-sideschedule-hero" class="btn btn-primary" href="https://github.com/4IngoJ/sideschedule/releases/latest/download/SideSchedule.dmg" data-i18n="cta.download">Download for macOS</a>
     </div>
     <p class="price-note">
       <span data-i18n="hero.priceNote">Free for 14 days, then €12.99 once. Launch offer: 50% off for the first 100 buyers.</span>
-      <a href="https://4ingoj.lemonsqueezy.com/checkout/buy/e72e0987-c650-42d1-a936-908168e003f5?checkout%5Bdiscount_code%5D=EARLY100" data-i18n="hero.buyLink">Or buy a licence now</a>
+      <a data-goatcounter-click="buy-sideschedule-hero" href="https://4ingoj.lemonsqueezy.com/checkout/buy/e72e0987-c650-42d1-a936-908168e003f5?checkout%5Bdiscount_code%5D=EARLY100" data-i18n="hero.buyLink">Or buy a licence now</a>
     </p>
     <div class="brew-box">
       <span data-i18n="hero.brew">Prefer Homebrew?</span>
       <code id="brew-cmd">brew install --cask 4ingoj/tap/sideschedule</code>
-      <button class="brew-copy-btn" type="button" aria-label="Copy Homebrew command" data-i18n-aria-label="brew.copyAria" onclick="copyBrewCmd(this)">
+      <button data-goatcounter-click="brew-sideschedule" class="brew-copy-btn" type="button" aria-label="Copy Homebrew command" data-i18n-aria-label="brew.copyAria" onclick="copyBrewCmd(this)">
         <svg class="copy-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="9" height="9" rx="1.5"/><path d="M11 5V3.5A1.5 1.5 0 0 0 9.5 2h-6A1.5 1.5 0 0 0 2 3.5v6A1.5 1.5 0 0 0 3.5 11H5"/></svg>
         <span class="copied-msg" data-i18n="brew.copied">Copied</span>
       </button>
@@ -921,14 +921,14 @@ Typed during the call. Read by Obsidian, Logseq, or any local AI tool.</pre>
         <div class="tier" data-i18n="pricing.trialTier">Trial</div>
         <div class="amount" data-i18n="pricing.trialAmount">Free for 14 days</div>
         <p data-i18n="pricing.trialP">Everything unlocked. No account, no credit card, and no countdown emails guilt-tripping you into buying.</p>
-        <a class="btn btn-light" href="https://github.com/4IngoJ/sideschedule/releases/latest/download/SideSchedule.dmg" data-i18n="pricing.trialCta">Download the trial</a>
+        <a data-goatcounter-click="dl-sideschedule-mid" class="btn btn-light" href="https://github.com/4IngoJ/sideschedule/releases/latest/download/SideSchedule.dmg" data-i18n="pricing.trialCta">Download the trial</a>
       </div>
       <div class="price-card highlight">
         <div class="tier" data-i18n="pricing.licenseTier">License</div>
         <div class="amount" data-i18n="pricing.licenseAmount">€12.99 once</div>
         <p data-i18n="pricing.licenseP">Launch offer: 50% off for the first 100 buyers. Pay once, keep every update after. I won’t turn this into a subscription later. That trick is played out anyway.</p>
         <p class="seat-note" data-i18n="pricing.licenseSeats">Two Macs per licence. Swapping machines frees a slot again.</p>
-        <a class="btn btn-primary" href="https://4ingoj.lemonsqueezy.com/checkout/buy/e72e0987-c650-42d1-a936-908168e003f5?checkout%5Bdiscount_code%5D=EARLY100" data-i18n="cta.buy">Buy license</a>
+        <a data-goatcounter-click="buy-sideschedule-mid" class="btn btn-primary" href="https://4ingoj.lemonsqueezy.com/checkout/buy/e72e0987-c650-42d1-a936-908168e003f5?checkout%5Bdiscount_code%5D=EARLY100" data-i18n="cta.buy">Buy license</a>
       </div>
     </div>
     <p class="maker-note">
@@ -982,7 +982,7 @@ Typed during the call. Read by Obsidian, Logseq, or any local AI tool.</pre>
       </details>
       <details class="faq-item">
         <summary data-i18n="faq4.q">Is my data sent anywhere?</summary>
-        <p data-i18n="faq4.a">The app: no. Your calendar events and notes stay on your Mac. The only network calls are license validation (Lemon Squeezy) and update checks (GitHub). No analytics, no tracking, no telemetry. This website loads no third-party scripts; if you arrive through a partner’s link, the partner’s ID is added to the Buy links so they get credited — details in the privacy policy.</p>
+        <p data-i18n="faq4.a">The app: no. Your calendar events and notes stay on your Mac. The only network calls are license validation (Lemon Squeezy) and update checks (GitHub). No analytics, no tracking, no telemetry. This website counts visits with GoatCounter, without cookies, and loads no other third-party scripts; if you arrive through a partner’s link, the partner’s ID is added to the Buy links so they get credited — details in the privacy policy.</p>
       </details>
       <details class="faq-item">
         <summary data-i18n="faq5.q">Can I get a refund?</summary>
@@ -1077,8 +1077,8 @@ Typed during the call. Read by Obsidian, Logseq, or any local AI tool.</pre>
     <h2 style="font-family:var(--sans); font-size:clamp(28px,4.4vw,36px); font-weight:600; letter-spacing:-0.015em; margin-bottom:16px;" data-i18n="final.h2">Your calendar, finally winning.</h2>
     <p style="color:rgba(250,250,248,.6); font-size:17px; max-width:480px; margin:0 auto 32px;" data-i18n="final.sub">Free for 14 days. No account, no credit card, no guilt-trip emails.</p>
     <div class="cta-row" style="justify-content:center;">
-      <a class="btn btn-light" href="https://github.com/4IngoJ/sideschedule/releases/latest/download/SideSchedule.dmg" data-i18n="cta.download">Download for macOS</a>
-      <a class="btn btn-outline-light" href="https://4ingoj.lemonsqueezy.com/checkout/buy/e72e0987-c650-42d1-a936-908168e003f5?checkout%5Bdiscount_code%5D=EARLY100" data-i18n="cta.buy">Buy license</a>
+      <a data-goatcounter-click="dl-sideschedule-end" class="btn btn-light" href="https://github.com/4IngoJ/sideschedule/releases/latest/download/SideSchedule.dmg" data-i18n="cta.download">Download for macOS</a>
+      <a data-goatcounter-click="buy-sideschedule-end" class="btn btn-outline-light" href="https://4ingoj.lemonsqueezy.com/checkout/buy/e72e0987-c650-42d1-a936-908168e003f5?checkout%5Bdiscount_code%5D=EARLY100" data-i18n="cta.buy">Buy license</a>
     </div>
   </div>
 </section>
@@ -1094,7 +1094,7 @@ Typed during the call. Read by Obsidian, Logseq, or any local AI tool.</pre>
       <a href="privacy.html" data-i18n="footer.privacy">Privacy</a>
       <a href="impressum.html" data-i18n="footer.legal">Legal Notice</a>
       <a href="https://github.com/4IngoJ/sideschedule/releases" data-i18n="footer.releases">Releases</a>
-      <a href="https://4ingoj.lemonsqueezy.com/checkout/buy/e72e0987-c650-42d1-a936-908168e003f5?checkout%5Bdiscount_code%5D=EARLY100" data-i18n="footer.buy">Buy license</a>
+      <a data-goatcounter-click="buy-sideschedule-footer" href="https://4ingoj.lemonsqueezy.com/checkout/buy/e72e0987-c650-42d1-a936-908168e003f5?checkout%5Bdiscount_code%5D=EARLY100" data-i18n="footer.buy">Buy license</a>
     </div>
   </div>
 </footer>
@@ -1250,6 +1250,7 @@ function copyBrewCmd(btn) {
 }
 </script>
 <script src="/assets/hero-field.js" defer></script>
+<script data-goatcounter="https://didact.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <!--lang-hint--><style>.lang-hint{position:fixed;left:16px;right:16px;bottom:16px;max-width:560px;margin:0 auto;z-index:300;display:flex;align-items:center;gap:14px;padding:12px 14px 12px 18px;border-radius:14px;background:#1A1917;color:#FAF9F7;font:500 14px/1.4 system-ui,-apple-system,sans-serif;box-shadow:0 12px 32px rgba(0,0,0,.28)}.lang-hint span{flex:1}.lang-hint a{color:#FAF9F7;font-weight:700;text-decoration:underline;white-space:nowrap}.lang-hint button{background:none;border:0;color:#B7B4AE;font-size:22px;line-height:1;cursor:pointer;padding:2px 6px}.lang-hint button:hover{color:#FAF9F7}</style><script>(function(){var K='lang-hint-dismissed',U={"en": "https://didact.digital/sideschedule/", "de": "https://didact.digital/sideschedule/de/", "fr": "https://didact.digital/sideschedule/fr/", "es": "https://didact.digital/sideschedule/es/", "it": "https://didact.digital/sideschedule/it/", "pt": "https://didact.digital/sideschedule/pt/"},T={"en": ["This page is also available in English.", "View in English", "Dismiss"], "de": ["Diese Seite gibt es auch auf Deutsch.", "Auf Deutsch ansehen", "Schließen"], "fr": ["Cette page existe aussi en français.", "Voir en français", "Fermer"], "es": ["Esta página también está disponible en español.", "Ver en español", "Cerrar"], "it": ["Questa pagina è disponibile anche in italiano.", "Vai alla versione italiana", "Chiudi"], "pt": ["Esta página também está disponível em português.", "Ver em português", "Fechar"]},C="en";function st(){try{localStorage.setItem(K,'1')}catch(e){}}document.querySelectorAll('#lang-menu a').forEach(function(a){a.addEventListener('click',st)});try{if(localStorage.getItem(K))return}catch(e){}var l=String((navigator.languages&&navigator.languages[0])||navigator.language||'en').slice(0,2).toLowerCase();if(l===C||!U[l])return;var b=document.createElement('div');b.className='lang-hint';b.setAttribute('role','region');b.lang=l;b.setAttribute('aria-label',T[l][0]);var s=document.createElement('span');s.textContent=T[l][0];var a=document.createElement('a');a.href=U[l];a.hreflang=l;a.textContent=T[l][1];a.addEventListener('click',st);var x=document.createElement('button');x.type='button';x.setAttribute('aria-label',T[l][2]);x.textContent='\u00d7';x.addEventListener('click',function(){st();b.remove()});b.append(s,a,x);document.body.appendChild(b)})();</script><!--/lang-hint-->
 </body>
 </html>
