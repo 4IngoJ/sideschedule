@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/assets/app-icon.png" width="96" height="96" alt="SideSchedule app icon">
+  <img src="https://didact.digital/sideschedule/assets/app-icon.png" width="96" height="96" alt="SideSchedule app icon">
 </p>
 
 <h1 align="center">SideSchedule</h1>
@@ -11,7 +11,7 @@
   <a href="https://github.com/4IngoJ/sideschedule/releases">Release notes</a>
 </p>
 
-![SideSchedule docked at the edge of a Mac desktop](docs/assets/og-image.png)
+![SideSchedule docked at the edge of a Mac desktop](https://didact.digital/sideschedule/assets/og-image.png)
 
 Most calendar apps show you your day and then disappear behind whatever window you open next. SideSchedule stays. It reserves a strip at the left or right edge of your screen, and any window that slides under it gets pushed back out, so your next meeting is always in view.
 
@@ -46,7 +46,7 @@ Questions: hello@didact.digital
 
 ## About this repository
 
-This repo holds the built app, the [Sparkle](https://sparkle-project.org) update feed and the website in `docs/`. The source code is private. `SUFeedURL` in the app points at:
+This repo holds the built app, the [Sparkle](https://sparkle-project.org) update feed and the Homebrew cask. The website lives in [`4IngoJ/4IngoJ.github.io`](https://github.com/4IngoJ/4IngoJ.github.io) (an archived copy stays in `docs/` until 2026-10-21). The source code is private. `SUFeedURL` in the app points at:
 
 ```
 https://github.com/4IngoJ/sideschedule/releases/latest/download/appcast.xml
